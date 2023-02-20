@@ -13,7 +13,7 @@ datasource db {
 model Expense {
   id String @id @default(auto()) @map("_id") @db.ObjectId
   title String
-  amoung Float
+  amount Float
   date DateTime
   dateAdded DateTime @default(now())
 }
